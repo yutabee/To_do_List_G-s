@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>ToDo_List</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>To_Do_List</h1>
+    </header>
+    <main>
+        <div class="register-box" id="js-add-form">
+            <input id="js-todo-ttl" type="text" placeholder="Enter your ToDo" maxlength="25">
+            <button id="js-register-btn">登録</button>
+        </div>
+
+        <div class="output-flex">
+            <div class="todo-box">
+                <h2>ToDo</h2>
+                <ul class="box__list" id="js-todo-list"></ul>
+            </div>
+            <div class="done-box">
+                <h2>Done</h2>
+                <ul class="box__list" id="js-done-list"></ul>
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"> </script>
+
+</body>
+
+</html>

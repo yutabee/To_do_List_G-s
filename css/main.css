@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 500px;
+    background-image: url('../img/fukuoka_slide01.jpeg');
+    background-size: cover;
+    background-color: #000000cf;
+    background-blend-mode: darken;
+    color: white;
+}
+
+.register-box input {
+    width: 85%;
+}
+
+.register-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box__list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+
+#js-done-btn {
+    margin-right: 10px;
+}
+
+h1 {
+    border-bottom: 3px solid #00A7EA;
+}
+
+h2 {
+    border-bottom: 3px solid #00A7EA;
+}
+
+button {
+    background-color: #00A7EA;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #00a8ea91;
+    cursor: pointer;
+}
+
+button:active {
+    border: none;
+}
